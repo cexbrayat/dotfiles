@@ -1,0 +1,5 @@
+# Utility scripts
+# Loading z autojump
+. /Users/cedric/Code/z/z.sh
+# Loading nvm for node management
+[[ -s /Users/cedric/.nvm/nvm.sh ]] && . /Users/cedric/.nvm/nvm.sh
