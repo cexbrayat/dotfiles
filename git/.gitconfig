@@ -1,0 +1,50 @@
+# aliases are mainly provided by oh-my-zsh
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	wdiff = diff --word-diff
+
+[user]
+	email = cedric@ninja-squad.com
+	name = cexbrayat
+
+# credentials stored by osx
+[credential]
+	helper = osxkeychain
+
+# activate color for all commands
+[color]
+	ui = auto
+
+# diff with meaningful prefix and word-diff will find a letter as a word
+[diff]
+	mnemonicprefix = true
+	wordRegex = .
+
+# vim as editor and less as pager
+[core]
+	editor = vim
+	pager = less
+
+# clean is forced by default
+[clean]
+	requireForce = false
+
+# commands will be autocorrect (rset -> reset)
+[help]
+    autocorrect = -1
+
+# remember previous conflict resolutions
+[rerere]
+	enabled = true
+
+# push only the current branch to its upstream branch
+[push]
+	default = upstream
+
+# rebase --interactive will change the action word depending on the commit message ('fixup!' -> 'fixup')
+[rebase]
+	autosquash = true
+
+# pull will do a rebase instead of a merge
+[pull]
+    rebase = true
