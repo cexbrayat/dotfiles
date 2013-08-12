@@ -8,3 +8,6 @@
 
 # git init
 . ./git/git.sh
+
+# osx init
+. ./osx/osx.sh
