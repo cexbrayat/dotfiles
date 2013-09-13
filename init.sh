@@ -11,3 +11,6 @@
 
 # osx init
 . ./osx/osx.sh
+
+# gradle init
+. ./gradle/gradle.sh
