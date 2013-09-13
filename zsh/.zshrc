@@ -55,4 +55,4 @@ plugins=(bower brew dircycle encode64 gem git-fast git-extras git gradle mvn nod
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:$PATH
