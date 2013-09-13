@@ -44,7 +44,12 @@
 # rebase --interactive will change the action word depending on the commit message ('fixup!' -> 'fixup')
 [rebase]
 	autosquash = true
+	autostash = true
 
 # pull will do a rebase instead of a merge
 [pull]
     rebase = true
+
+# merge is looking harder for renames
+[merge]
+	renamelimit = 3000
