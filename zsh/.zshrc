@@ -56,3 +56,4 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/Users/cedric/.nvm/v0.11.5/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin
+export PATH="$HOME/.jenv/bin:$PATH"
