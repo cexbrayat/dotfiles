@@ -42,6 +42,7 @@
 	default = upstream
 
 # rebase --interactive will change the action word depending on the commit message ('fixup!' -> 'fixup')
+# autostash will stash a dirty tree, rebase, then unstash
 [rebase]
 	autosquash = true
 	autostash = true
