@@ -24,6 +24,7 @@
 [core]
 	editor = vim
 	pager = less
+	excludesfile = ~/.gitignore_global
 
 # clean is forced by default
 [clean]
