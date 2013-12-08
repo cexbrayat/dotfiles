@@ -50,7 +50,7 @@ ZSH_THEME="sorin"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(brew git gem git github node npm osx svn vagrant)
-plugins=(bower brew dircycle encode64 gem git-fast git-extras git gradle mvn node npm osx rails4 redis-cli ruby rvm sbt scala sublime vagrant web-search)
+plugins=(bower brew dircycle encode64 gem git-fast git-extras git gradle mvn node npm osx rails redis-cli ruby rvm sbt scala sublime vagrant web-search)
 
 source $ZSH/oh-my-zsh.sh
 
