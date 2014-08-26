@@ -55,3 +55,7 @@
 # merge is looking harder for renames
 [merge]
 	renamelimit = 3000
+	
+# order tags correctly since Git 2.1
+[tag]
+	sort = version:refname
