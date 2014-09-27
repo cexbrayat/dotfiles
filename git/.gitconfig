@@ -59,3 +59,7 @@
 # order tags correctly since Git 2.1
 [tag]
 	sort = version:refname
+
+# status will see inside untracked directories
+[status]
+	showUntrackedFiles = all
