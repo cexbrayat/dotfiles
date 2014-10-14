@@ -3,6 +3,9 @@
 # zsh init
 . ./zsh/zsh.sh
 
+# vim init
+. ./vim/vim.sh
+
 # brew init
 . ./brew/brew.sh
 
