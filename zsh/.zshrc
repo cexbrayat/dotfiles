@@ -58,7 +58,8 @@ plugins=(atom brew dirhistory docker encode64 gitfast gradle mvn node npm osx su
 
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export JENV_ROOT=/usr/local/opt/jenv
+export PATH="$HOME/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh

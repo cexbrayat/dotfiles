@@ -1,3 +1,6 @@
 # Utility scripts
 # Loading z autojump
 . /Users/ced-pro/Code/config/z/z.sh
+
+# Loading jenv
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
