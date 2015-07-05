@@ -4,3 +4,7 @@
 
 # Loading jenv
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
+# Loading nvm
+source $(brew --prefix nvm)/nvm.sh
+nvm use default > /dev/null

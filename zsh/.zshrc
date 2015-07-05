@@ -1,11 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/ced-pro/.oh-my-zsh
 
-# Loading scripts
-if [ -f ~/.zsh_scripts ]; then
-    . ~/.zsh_scripts
-fi
-
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -58,6 +53,7 @@ plugins=(atom brew dirhistory docker encode64 gitfast gradle mvn node npm osx su
 
 # User configuration
 
+export NVM_DIR=~/.nvm
 export JENV_ROOT=/usr/local/opt/jenv
 export PATH="$HOME/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -88,3 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Loading scripts
+if [ -f ~/.zsh_scripts ]; then
+    . ~/.zsh_scripts
+fi
