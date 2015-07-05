@@ -1,6 +1,11 @@
 #/bin/zsh
+
+#install brew and cask manually
+
 brew upgrade
 
-brew install git hub maven jenv
+brew cask install alfred iterm google-chrome spectacle utorrent vlc 1password atom java virtualbox vagrant boot2docker boot2docker-status android-file-transfer skype
+
+brew install git hub maven jenv youtube-dl
 
 brew cleanup
