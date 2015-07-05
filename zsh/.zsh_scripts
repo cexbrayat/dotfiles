@@ -1,6 +1,3 @@
 # Utility scripts
 # Loading z autojump
-. /Users/cedric/Code/z/z.sh
-# Loading nvm for node management
-[[ -s /Users/cedric/.nvm/nvm.sh ]] && . /Users/cedric/.nvm/nvm.sh
-eval "$(jenv init -)"
+. /Users/ced-pro/Code/config/z/z.sh
