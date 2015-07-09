@@ -8,3 +8,6 @@ if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 # Loading nvm
 source $(brew --prefix nvm)/nvm.sh
 nvm use default > /dev/null
+
+# Init boot2docker
+if [ "$(boot2docker status)" == "running" ]; then eval "$(boot2docker shellinit) > /dev/null"; fi

@@ -56,7 +56,8 @@ plugins=(atom brew dirhistory docker encode64 gitfast gradle mvn node npm osx su
 export NVM_DIR=~/.nvm
 export JENV_ROOT=/usr/local/opt/jenv
 export PATH="$HOME/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-# export MANPATH="/usr/local/man:$MANPATH"
+# Add psql
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 
 source $ZSH/oh-my-zsh.sh
 
