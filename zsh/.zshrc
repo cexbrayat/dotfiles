@@ -54,10 +54,11 @@ plugins=(atom brew dirhistory docker encode64 gitfast gradle mvn node npm osx su
 # User configuration
 
 export NVM_DIR=~/.nvm
-export JENV_ROOT=/usr/local/opt/jenv
-export PATH="$HOME/.jenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # Add psql
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.6/bin
+# Add yarn
+export PATH=$PATH:`yarn global bin`
 
 source $ZSH/oh-my-zsh.sh
 
