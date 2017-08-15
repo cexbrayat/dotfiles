@@ -45,6 +45,7 @@ brew cask install tunnelblick
 brew cask install visual-studio-code
 brew cask install vlc
 brew cask install webtorrent
+# pocket to install manually
 # wunderlist to install manually
 
 brew install ansible
@@ -52,10 +53,10 @@ brew install git
 brew install hub 
 brew install hugo
 brew install nvm 
-brew install play14
 brew install rbenv
 brew install wget
 brew install yarn
 brew install youtube-dl 
+# play to install manually
 
 brew cleanup
