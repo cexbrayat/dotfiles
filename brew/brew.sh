@@ -31,7 +31,6 @@ brew cask install prey
 brew cask install sabaki
 brew cask install screenhero
 brew cask install sdformatter
-brew cask install seashore
 brew cask install skype
 brew cask install slack
 brew cask install sonarr
@@ -43,15 +42,15 @@ brew cask install the-unarchiver
 brew cask install torbrowser
 brew cask install transmit
 brew cask install tunnelblick
-brew cask install utorrent
-brew cask install visual-code-studio
+brew cask install visual-studio-code
 brew cask install vlc
-brew cask install wunderlist
+brew cask install webtorrent
+# wunderlist to install manually
 
 brew install ansible
 brew install git 
 brew install hub 
-brew isntall hugo
+brew install hugo
 brew install nvm 
 brew install play14
 brew install rbenv
