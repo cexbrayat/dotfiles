@@ -15,9 +15,9 @@ brew cask install calibre
 brew cask install docker 
 brew cask install dropbox 
 brew cask install firefox 
-brew cask install github-desktop 
+brew cask install github-desktop
+brew cask install google-backup-and-sync
 brew cask install google-chrome 
-brew cask install google-drive 
 brew cask install iterm2 
 brew cask install intellij-idea 
 brew cask install java 
