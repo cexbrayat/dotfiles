@@ -1,13 +1,24 @@
 # Utility scripts
-# Loading z autojump
-. /Users/ced-pro/Code/config/z/z.sh
-
-# Loading jenv
-if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 # Loading nvm
 source $(brew --prefix nvm)/nvm.sh
 nvm use default > /dev/null
 
-# Init boot2docker
-if [ "$(boot2docker status)" == "running" ]; then eval "$(boot2docker shellinit) > /dev/null"; fi
+function ydl() {
+  youtube-dl --console-title -o "%(autonumber)s-%(title)s.%(ext)s" $(pbpaste); growl youtubedl
+}
+
+# weather
+alias meteo="curl -4 http://wttr.in/Lyon"
+
+# notify me
+function f_notifyme {
+  LAST_EXIT_CODE=$?
+  CMD=$(fc -ln -1)
+  # No point in waiting for the command to complete
+  ~/notifyme.sh "$CMD" "$LAST_EXIT_CODE" &
+}
+
+export PS1='$(f_notifyme)'$PS1
+
+eval "$(rbenv init -)"
