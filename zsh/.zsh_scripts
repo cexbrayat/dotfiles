@@ -1,15 +1,14 @@
 # Utility scripts
+# autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 # Loading nvm
-source $(brew --prefix nvm)/nvm.sh
-nvm use default > /dev/null
+# source $(brew --prefix nvm)/nvm.sh
+# nvm use default > /dev/null
 
 function ydl() {
-  youtube-dl --console-title -o "%(autonumber)s-%(title)s.%(ext)s" $(pbpaste); growl youtubedl
+  youtube-dl --console-title -o "%(autonumber)s-%(title)s.%(ext)s" $@;
 }
-
-# weather
-alias meteo="curl -4 http://wttr.in/Lyon"
 
 # notify me
 function f_notifyme {
